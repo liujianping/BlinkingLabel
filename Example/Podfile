@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BlinkingLabel_Example', :exclusive => true do
+  pod 'BlinkingLabel', :path => '../'
+end
+
+target 'BlinkingLabel_Tests', :exclusive => true do
+  pod 'BlinkingLabel', :path => '../'
+
+  
+end
